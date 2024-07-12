@@ -2,7 +2,7 @@ import orderModel from "../models/ordermodel.js";
 import userModel from '../models/usermodel.js';
 import Stripe from 'stripe'
 
-const stripe = new Stripe("sk_test_51PHLvjSFvVARcOEc7J546Q2KLvE0fjC443R6BtiIDyUtAMOKYDo9c2SBOH4xg0npMqmg6JfIWVwrm4JCktHNUeCJ00PC4B0JQD")
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 // placing user order for frontend
 
