@@ -28,7 +28,7 @@ const LoginPopUp = ({setShowLogin}) => {
         newUrl += "/api/user/register"
        }
        const res = await axios.post(newUrl,data);
-      
+      console.log(res)
        if(res.data.success){
         setToken(res.data.token);
         localStorage.setItem("token",res.data.token);

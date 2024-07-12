@@ -54,6 +54,10 @@ window.addEventListener("scroll",()=>{
           </div>}
       </div>
     </div>
+
+    // clone
+
+    
   )
 }
 
