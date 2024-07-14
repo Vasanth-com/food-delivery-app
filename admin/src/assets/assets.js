@@ -15,3 +15,4 @@ export const assets ={
 }
 
 export const url = 'https://food-delivery-app-backend-ankf.onrender.com'
+// export const url = 'http://localhost:4000/';
